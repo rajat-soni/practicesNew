@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>java script on and off  mode</title>
+</head>
+<body>
+<button onclick="myFunction()">Click Me</button>
+
+<div id="myDIV">
+  This is my DIV element.
+</div>
+<script>
+	function myFunction() {
+  var data = document.getElementById("myDiv");
+
+  var new = data.style.display;
+  if(var new === "block"){
+    data.style.display = "block";
+  }else{
+
+  	data.style.display = "none";
+  }
+}
+
+</script>
+</body>
+</html>
